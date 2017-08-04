@@ -1,0 +1,28 @@
+.container {
+    width: 218px;
+    }
+
+.gridsquare {
+    height: 100px;
+    width: 100px;
+    float: left;
+    border: solid black 1px;
+    background-color: white;
+}
+
+.palette {
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-top: 20px;
+    margin-right: 3px;
+    border: solid black 1px;
+}
+
+#redPalette {
+    background-color: red;
+}
+
+#bluePalette {
+    background-color: blue;
+}
