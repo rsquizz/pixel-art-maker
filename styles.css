@@ -1,11 +1,28 @@
+#easel{
+ width: 870px;
+ position: relative;   
+ top: 0px;
+ left: 330px;
+ }
+
 .container {
     width: 828px;
-    margin: auto;
+    position: absolute;
+    left: 26px;
+    top: 17px;
+    z-index: 10;
     }
 
 #paletteContainer {
-    width: 828px;
+    width: 148px;
     margin: auto;
+    margin-left: 50px;
+    margin-top: -510px;
+    position: absolute;
+    padding: 30px;
+    border: solid rgb(140, 109, 59) 4px;
+    border-radius: 10px;
+    background-color: rgb(192, 159, 105);
 }
 
 .gridsquare {
@@ -20,21 +37,31 @@
     height: 30px;
     width: 30px;
     float: left;
-    margin-top: 20px;
-    margin-right: 3px;
+    margin-top: 10px;
+    margin-left: 4px;
     border: solid black 1px;
+    border-radius: 100px;
 }
 
 #indicator{
- margin-left: 0 px;   
+ margin-left: 2px; 
+ background-color: black;  
 }
 
-#label{
+.label{
     height: 30px;
-    width: 100px;
+    width: 120px;
     float: left;
     margin-top: 20px;
     border: none;
     line-height: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(129, 101, 54);
+    padding: 20px;
 }
